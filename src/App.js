@@ -15,7 +15,7 @@ var fruitDictionary = {
 var fruits= Object.keys(fruitDictionary);
 
 export default function App() {
-  const [meaning, setMeaning] = useState("meaning will appear here");
+  const [meaning, setMeaning] = useState("name will appear here");
   function inputHandler(event) {
     var userInput = event.target.value;
     var meaning = fruitDictionary[userInput];
